@@ -2,68 +2,216 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Dr. Chiya Chaudhary</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Chiya Chaudhary | Paediatrician</title>
+
   <style>
     body {
       font-family: Arial, sans-serif;
       background: #f5f7fa;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+      background: #fff;
+    }
+
+    header {
       text-align: center;
-      padding-top: 80px;
+      padding-bottom: 30px;
+      border-bottom: 1px solid #ddd;
     }
-    h1 {
-      color: #2c3e50;
-    }
-    p {
-      color: #555;
-      font-size: 18px;
-      max-width: 650px;
-      margin: 20px auto;
-      line-height: 1.6;
-    }
-    img {
+
+    img.profile {
       width: 160px;
       height: 160px;
       border-radius: 50%;
       object-fit: cover;
       border: 3px solid #2c3e50;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      margin: 10px 0 5px;
+      color: #2c3e50;
+    }
+
+    h2 {
+      margin: 0;
+      font-weight: normal;
+      color: #555;
+    }
+
+    section {
+      margin-top: 35px;
+    }
+
+    section h3 {
+      color: #2c3e50;
+      border-bottom: 2px solid #2c3e50;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      line-height: 1.6;
+      color: #555;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+      color: #555;
+    }
+
+    .job {
       margin-bottom: 20px;
     }
-    a.cv-link {
+
+    .job-title {
+      font-weight: bold;
+      color: #333;
+    }
+
+    .job-place {
+      font-style: italic;
+      color: #666;
+    }
+
+    .cv-link {
       display: inline-block;
-      margin-top: 20px;
+      margin-top: 15px;
       padding: 10px 18px;
       background: #2c3e50;
       color: #fff;
       text-decoration: none;
       border-radius: 5px;
-      font-size: 16px;
+      font-size: 15px;
     }
-    a.cv-link:hover {
+
+    .cv-link:hover {
       background: #1a252f;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
+      color: #777;
+      font-size: 14px;
     }
   </style>
 </head>
+
 <body>
 
-  <!-- Profile Image -->
-  <img src="assets/images/dr_chiya_chaudhary.jpeg" alt="Chiya Chaudhary" />
+<div class="container">
 
-  <h1>Dr. Chiya Chaudhary</h1>
-  <h2>MBBS, MD (Pediatrics)</h2>
+  <!-- HEADER -->
+  <header>
+    <img class="profile" src="assets/images/dr_chiya_chaudhary.jpeg" alt="Dr. Chiya Chaudhary">
+    <h1>Dr. Chiya Chaudhary</h1>
+    <h2>MBBS, MD (Paediatrics)</h2>
+  </header>
 
-  <p>
-    Dr. Chiya Chaudhary is a dedicated medical professional (Pediatrician) with a strong focus on
-    patient care, clinical excellence, and evidence-based practice.
-  </p>
+  <!-- PROFILE -->
+  <section>
+    <h3>Profile</h3>
+    <p>
+      Dedicated and compassionate Paediatrician with strong experience in neonatal and paediatric care,
+      including emergency management, NICU services, outpatient care, and immunization programs.
+      Skilled in managing acute and chronic paediatric illnesses with a family-centred,
+      evidence-based approach.
+    </p>
+  </section>
 
-  <!-- CV Download -->
-  <a class="cv-link" href="assets/cv/Dr_Chiya_Chaudhary_Resume.pdf" target="_blank">
-    View / Download CV
-  </a>
+  <!-- EDUCATION -->
+  <section>
+    <h3>Education</h3>
+    <ul>
+      <li><strong>MD (Paediatrics)</strong> – Shyam Shah Medical College (SSMC), Rewa, Madhya Pradesh</li>
+      <li><strong>MBBS</strong> – G.R. Medical College, Gwalior, Madhya Pradesh</li>
+    </ul>
+  </section>
 
-  <p style="margin-top: 30px; font-style: italic;">
-    Website content will be available soon.
-  </p>
+  <!-- EXPERIENCE -->
+  <section>
+    <h3>Work Experience</h3>
+
+    <div class="job">
+      <div class="job-title">Senior Resident – Neonatology</div>
+      <div class="job-place">Superspeciality Hospital, SSMC, Rewa (MP)</div>
+      <ul>
+        <li>Management of sick and preterm neonates in NICU</li>
+        <li>CPAP, mechanical ventilation, and surfactant therapy</li>
+        <li>Central and peripheral line cannulation</li>
+        <li>Neonatal resuscitation and stabilization</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-title">Senior Resident – Paediatrics</div>
+      <div class="job-place">Kamla Raja Hospital (KRH), Gwalior (MP)</div>
+      <ul>
+        <li>Management of paediatric emergencies and inpatient cases</li>
+        <li>Handling acute infections, respiratory illnesses, and nutritional disorders</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-title">Senior Resident – Paediatrics</div>
+      <div class="job-place">RJN Apollo Spectra Hospital, Gwalior (MP)</div>
+      <ul>
+        <li>Outpatient and inpatient paediatric care</li>
+        <li>Multidisciplinary coordination for comprehensive child care</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section>
+    <h3>Core Skills</h3>
+    <ul>
+      <li>General Paediatrics & Emergency Care</li>
+      <li>Neonatal Critical Care & NICU Management</li>
+      <li>Ventilatory Support & Neonatal Resuscitation</li>
+      <li>Immunization & Preventive Paediatrics</li>
+      <li>Growth Monitoring & Nutritional Assessment</li>
+      <li>Parental Counselling & Follow-up Care</li>
+    </ul>
+  </section>
+
+  <!-- CV -->
+  <section>
+    <h3>Curriculum Vitae</h3>
+    <a class="cv-link" href="assets/cv/Dr_Chiya_Chaudhary_Resume.pdf" target="_blank">
+      View / Download CV
+    </a>
+  </section>
+
+  <!-- CONTACT -->
+  <section>
+    <h3>Contact</h3>
+    <p>
+      <strong>Phone:</strong> +91 79993 06225<br>
+      <strong>Email:</strong> chaudharychiya@gmail.com
+    </p>
+  </section>
+
+  <footer>
+    © 2026 Dr. Chiya Chaudhary
+  </footer>
+
+</div>
 
 </body>
 </html>
